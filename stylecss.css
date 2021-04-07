@@ -1,0 +1,163 @@
+body {
+    font-family: verdana ;
+    color: #70757a;;
+}
+
+body, input, button {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+}
+
+.headnav {
+    display: flex;
+    justify-content: flex-end;
+    min-width: auto;
+    margin-right: 100px;
+}
+
+.headnav ul {
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+    z-index: 986;
+    list-style: none;
+}
+
+.headnav ul li {
+        display: inline-block;
+        margin-right: 12px;
+}
+
+.headnav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.connectiontop {
+    cursor: pointer;
+    color:  #fff;
+    text-decoration: none;
+    margin-left: 8px;
+}
+
+.connectiontop {
+    overflow: hidden;
+    width: 328px;
+    z-index: 991;
+    margin-top: 57px;
+    margin-right: 4px;
+    transition: height 0.3s ease-in-out 0s;
+    max-height: calc(-63px + 100vh);
+    visibility: hidden;
+}
+
+.connectiontop box {
+    background: #1a73e8;
+    border: 1px solid transparent;
+}
+
+.image {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 60vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image ul li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.logo google {
+    width: 400%;
+}
+
+.logosearch {
+    display: invert-inline;
+    width: 20px;
+    height: 25px;
+}
+
+.logo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar-search {
+    display: flex;
+    height: 40px;
+    width: 70px;
+    justify-content: space-between;
+    border: solid 1px rgb(141, 141, 141);
+    border-radius: 20px;
+    align-items: center;
+    padding: 0 10px;
+    outline-style: none;
+}
+
+.bar-search:hover {
+    box-shadow: 2px 2px 2px #bebebe;
+}
+
+input {
+    width: 450px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+}
+
+.button {
+    display: flex;
+    margin-top: 50px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    padding: 7px 10px;
+    margin-right: 20px;
+    border: none;
+    transition: 0.5;
+}
+
+.btn:hover {
+    box-shadow: 2px 2px 2px #bebebe
+}
+
+.footer {
+    height: 10vh;
+    background-color: #dadce0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer ul {
+  list-style: none;
+  margin-top: 0px;
+}
+
+.footer li {
+    display: inline-block;
+}
+
+.footer li a {
+    font-size: 14px;
+    margin-left: 20px;
+    color: #70757a;;
+    margin-right: 20px;
+}
+
+.footer p {
+    font-size: 15px;
+    margin-left: 40px;
+}
+
+.nav-footer {
+    display: flex;
+    justify-content: space-between;
+}
